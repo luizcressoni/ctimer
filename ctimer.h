@@ -1,5 +1,7 @@
 /*! \file ctimer.h */
 #pragma once
+#ifndef CTIMER_H
+#define CTIMER_H
 /**
     Esta biblioteca e gratuita.
     Use e distribua, mantendo as informacoes de autoria:
@@ -32,3 +34,5 @@ public:
     void        Enable(bool _enable);
     bool        IsEnabled(void);
 };
+
+#endif CTIMER_H
